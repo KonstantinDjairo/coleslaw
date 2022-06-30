@@ -13,6 +13,7 @@
 Coleslaw is Flexible Lisp Blogware similar to [Frog](https://github.com/greghendershott/frog), [Jekyll](http://jekyllrb.com/), or [Hakyll](http://jaspervdj.be/hakyll/).
 
 in order to keep every post containing latex support i provided a pre-configured dotfile (.coleslawrc)
+also, rsync is a dependency, if you have freebsd, it does not come pre-installed
 
 Have questions? 
 - IRC in **#coleslaw** on Freenode!
