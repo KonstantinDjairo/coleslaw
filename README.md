@@ -12,8 +12,12 @@
 
 Coleslaw is Flexible Lisp Blogware similar to [Frog](https://github.com/greghendershott/frog), [Jekyll](http://jekyllrb.com/), or [Hakyll](http://jaspervdj.be/hakyll/).
 
-in order to keep every post containing latex support i provided a pre-configured dotfile (.coleslawrc)
-also, rsync is a dependency, if you have freebsd, it does not come pre-installed
+### Warnings
+> - in order to keep every post containing latex support i provided a pre-configured dotfile (.coleslawrc) <br>
+> - also, rsync is a dependency, if you have freebsd, it does not come pre-installed <br>
+> - roswell does not recognize a sbcl setup if you already have it in freebsd, then it donwloads a binary of sbcl and uses only for this purporse (running coleslaw) <br>
+> - if you create a folder, for example, an image folder to put in the images of your blog, it will not automatically move the folder to the /tmp/coleslaw, therefore it will not render your local images, *be aware of it!* <br>
+<br>
 
 Have questions? 
 - IRC in **#coleslaw** on Freenode!
