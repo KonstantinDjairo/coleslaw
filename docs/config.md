@@ -27,10 +27,11 @@ There are also many *optional* config parameters such as:
 * `:excerpt-sep`   => to set the separator for excerpt in content, default: `<!--more-->`
 * `:lang`          => to set HTML attributes indicating the site language, default: "en"
 * `:license`       => to override the displayed content license, the default is CC-BY-SA
-* `:page-ext`      => to set the suffix of generated files, default: "html"
+* `:page-ext`      => to set the suffix of generated files, default: "html". "" for no extension
 * `:plugins`       => to configure and enable coleslaw's [various plugins][plugin-use]
 * `:separator`     => to set the separator for content metadata, default: ";;;;;"
 * `:sitenav`       => to provide relevant links and ease navigation
 * `:staging-dir`   => for Coleslaw to do intermediate work, default: "/tmp/coleslaw"
+* `:title-fn`      => to modify document slugs after they are generated, default: `'identity`
 
 [plugin-use]: https://github.com/redline6561/coleslaw/blob/master/docs/plugin-use.md
